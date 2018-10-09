@@ -54,7 +54,7 @@
         
                 </div>
                 <div class="col-md-6 col-lg-6 col-xs-12" style="margin-top: 200px; margin-bottom: 170px">
-                    <img src="assets/img/web.png" class="img-responsive" height="250" width="250">
+                    <img src="assets/img/web.png" class="myworld img-responsive" height="250" width="250">
                 </div>
             </div>
         </div>
@@ -81,11 +81,10 @@
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
 
-	<script type='text/javascript'>
-	//<![CDATA[
-	// Loader
-	$(window).bind("load",function(){$("#cssload").fadeIn(1e3)});
-	//]]>
-	</script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".myworld").addClass("myworld"); 
+        });
+    </script>
 </body>
 </html>

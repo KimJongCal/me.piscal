@@ -8,3 +8,13 @@ blockquote{
 .nav-link:hover{
   text-decoration: underline;
 }
+
+.myworld {
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.myworld:hover {
+  -webkit-transform: rotate(360deg); /* Safari */
+  transform: rotate(360deg);
+}
