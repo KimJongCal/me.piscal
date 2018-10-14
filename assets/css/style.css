@@ -30,11 +30,6 @@ blockquote{
   }
 }
 
-.myworld:hover {
-  -webkit-transform: rotate(360deg); /* Safari */
-  transform: rotate(360deg);
-}
-
 .myname{
   animation: 2s ease-out 0s 1 slideInFromLeft;
 }
@@ -49,6 +44,11 @@ blockquote{
       -ms-animation: fadein 2s; /* Internet Explorer */
        -o-animation: fadein 2s; /* Opera < 12.1 */
           animation: fadein 2s;
+}
+
+.myworld:hover {
+  -webkit-transform: rotate(360deg); /* Safari */
+  transform: rotate(360deg);
 }
 
 /** other transition **/
@@ -155,7 +155,7 @@ blockquote{
   display: inline-block;
   width: 101px;
   height: 101px;
-  margin: 6px;
+  margin: -75px 0 0 -75px;
   border-radius: 50%;
   background: #fff;
   animation: lds-circle 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
