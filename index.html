@@ -10,9 +10,10 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
 </head>
-<body style="overflow: hidden;">
+<body style="overflow: hidden;" onload="myFunction()">
+    <div id="lds-circle"></div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
 	<div class="container-fluid">
-		<div id='cssload'/>
         <!-- navbar -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-light nav-top" style="background-color: #2d3436">
             <div class="container navbar-top">
@@ -72,8 +73,8 @@
                 </div>
             </div>
         </nav>
-
-	</div>
+    
+    </div>
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/custom.js"></script>
